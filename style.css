@@ -1,0 +1,88 @@
+body {
+    background-color: #044bab; 
+  }
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.enviar {
+    width: 50%;
+    padding: 8px 8px;
+    background-color: rgb(12, 164, 234);
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+ }
+
+ .enviar:hover {
+        background: rgb(6, 190, 177);
+        transform: scale(1.2);
+}
+
+.logo-image {
+width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 3s all;
+}
+
+.logo-image:hover {
+   /* width: 29%; */
+    transform: scale(0.8);
+}
+
+
